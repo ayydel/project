@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(233, 47%, 7%);
+    display: flex;
+    color: #ffffffa1;
+    font-size: 15px;
+    line-height: 1.3rem;
+    width: 100vw;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1.01    px;
+}
+
+.container {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    margin: 10% 20%;
+    display: flex;
+}
+
+h1 { 
+    color:  hsl(0, 0%, 100%);
+    font-size: 28px;
+    line-height: 2.4rem;
+    margin-bottom: 30px;
+}
+
+
+.highlight {
+    color:  hsl(277, 64%, 61%);
+}
+
+.header {
+    white-space: nowrap;
+}
+
+section {
+    width: 50%;
+}
+
+.container img {
+    width: 100%;
+    height:100%;
+    border-radius: 0 8px 8px 0;
+    opacity: 0.46;
+}
+
+.section2 {
+    background-color: hsla(290, 97%, 40%, 0.452);
+    border-radius: 0 8px 8px 8px;
+}
+
+.content {
+    padding: 55px;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+footer {
+    display: flex;
+}
+
+.footer {
+     display: flex;
+     font-size: 13px;
+     flex-direction: column;
+     padding-right: 20px;
+}
+
+.numbers {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
