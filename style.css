@@ -37,7 +37,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-.highlight {
+span .highlight {
     color:  hsl(277, 64%, 61%);
 }
 
